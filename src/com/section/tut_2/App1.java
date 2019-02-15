@@ -33,6 +33,7 @@ public class App1 {
 	public static void main(String[] args) {
 		Processor proc=new Processor();
 		proc.start();
+		proc.start();//I create the thread now,and thread starts running
 		
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Press to shudown...");
